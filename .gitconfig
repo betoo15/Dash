@@ -1,8 +1,0 @@
-[user]
-	email = 136134336+betoo15@users.noreply.github.com
-	name = betoo15
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
